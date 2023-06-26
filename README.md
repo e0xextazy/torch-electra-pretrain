@@ -6,3 +6,8 @@ Reference:
 
 Updates:
 - Add multi GPU DataParallel
+
+## Usage
+1. `git clone` and `pip install requirements.txt`
+2. Train your tokenizer: `python tokenizer_train.py`
+3. Start pretrain: `CUDA_VISIBLE_DEVICES="2,4,6,7" python pretrain.py`
